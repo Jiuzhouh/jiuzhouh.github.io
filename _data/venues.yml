@@ -6,9 +6,9 @@
   url: https://journals.aps.org/
 
 "EMNLP":
-  url: https://journals.aps.org/
+  url: https://aclanthology.org/venues/emnlp/
   color: "#BF40BF"
 
 "INLG":
-  url: https://journals.aps.org/
+  url: https://aclanthology.org/venues/inlg/
   color: "#00369f"
