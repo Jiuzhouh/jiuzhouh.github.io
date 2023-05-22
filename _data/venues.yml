@@ -4,3 +4,10 @@
 
 "PhysRev":
   url: https://journals.aps.org/
+
+"EMNLP":
+  url: https://journals.aps.org/
+
+"INLG":
+  url: https://journals.aps.org/
+  color: "#00369f"
