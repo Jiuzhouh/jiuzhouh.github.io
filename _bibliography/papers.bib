@@ -1,87 +1,3 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
 
 @inproceedings{DBLP:conf/emnlp/HanS22,
   abbr         = {EMNLP},
@@ -102,7 +18,7 @@
   pdf          = {https://aclanthology.org/2022.emnlp-main.321.pdf},
   code         = {https://github.com/Jiuzhouh/Graph-Masking-Pre-training},
   bibtex_show  = {true},
-  abstract     = {Text generation from semantic graphs is traditionally performed with deterministic methods, which generate a unique description given an input graph. However, the generation problem admits a range of acceptable textual outputs, exhibiting lexical, syntactic and semantic variation. To address this disconnect, we present two main contributions. First, we propose a stochastic graph-to-text model, incorporating a latent variable in an encoder-decoder model, and its use in an ensemble. Second, to assess the diversity of the generated sentences, we propose a new automatic evaluation metric which jointly evaluates output diversity and quality in a multi-reference setting. We evaluate the models on WebNLG datasets in English and Russian, and show an ensemble of stochastic models produces diverse sets of generated sentences while, retaining similar quality to state-of-the-art models.}
+  abstract     = {Large-scale pre-trained language models (PLMs) have advanced Graph-to-Text (G2T) generation by processing the linearised version of a graph. However, the linearisation is known to ignore the structural information. Additionally, PLMs are typically pre-trained on free text which introduces domain mismatch between pre-training and downstream G2T generation tasks. To address these shortcomings, we propose graph masking pre-training strategies that neither require supervision signals nor adjust the architecture of the underlying pre-trained encoder-decoder model. When used with a pre-trained T5, our approach achieves new state-of-the-art results on WebNLG+2020 and EventNarrative G2T generation datasets. Our method also shows to be very effective in the low-resource setting.}
 }
 
 @inproceedings{DBLP:conf/inlg/HanBC21,
@@ -127,4 +43,73 @@
   code         = {https://github.com/Jiuzhouh/Multi-Score},
   bibtex_show  = {true},
   abstract     = {Text generation from semantic graphs is traditionally performed with deterministic methods, which generate a unique description given an input graph. However, the generation problem admits a range of acceptable textual outputs, exhibiting lexical, syntactic and semantic variation. To address this disconnect, we present two main contributions. First, we propose a stochastic graph-to-text model, incorporating a latent variable in an encoder-decoder model, and its use in an ensemble. Second, to assess the diversity of the generated sentences, we propose a new automatic evaluation metric which jointly evaluates output diversity and quality in a multi-reference setting. We evaluate the models on WebNLG datasets in English and Russian, and show an ensemble of stochastic models produces diverse sets of generated sentences while, retaining similar quality to state-of-the-art models.}
+}
+
+@inproceedings{shu-etal-2023-posqa,
+    abbr         = {EMNLP},
+    title = {POSQA: Probe the World Models of {LLM}s with Size Comparisons},
+    author = "Shu*, Chang  and
+      Han*, Jiuzhou  and
+      Liu, Fangyu  and
+      Shareghi, Ehsan  and
+      Collier, Nigel",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.504",
+    pdf          = {https://aclanthology.org/2023.findings-emnlp.504.pdf},
+    code         = {https://github.com/cambridgeltl/POSQA},
+    pages = "7518--7531",
+    bibtex_show  = {true},
+    abstract = {Embodied language comprehension emphasizes that language understanding is not solely a matter of mental processing in the brain but also involves interactions with the physical and social environment. With the explosive growth of Large Language Models (LLMs) and their already ubiquitous presence in our daily lives, it is becoming increasingly necessary to verify their real-world understanding. Inspired by cognitive theories, we propose POSQA: a Physical Object Size Question Answering dataset with simple size comparison questions to examine the extremity and analyze the potential mechanisms of the embodied comprehension of the latest LLMs. We show that even the largest LLMs today perform poorly under the zero-shot setting. We then push their limits with advanced prompting techniques and external knowledge augmentation. Furthermore, we investigate whether their real-world comprehension primarily derives from contextual information or internal weights and analyse the impact of prompt formats and report bias of different objects. Our results show that real-world understanding that LLMs shaped from textual data can be vulnerable to deception and confusion by the surface form of prompts, which makes it less aligned with human behaviours.},
+}
+
+@article{DBLP:journals/corr/abs-2309-08347,
+  abbr         = {arXiv},
+  author       = {Jiuzhou Han and
+                  Wray L. Buntine and
+                  Ehsan Shareghi},
+  title        = {Reward Engineering for Generating Semi-structured Explanation},
+  journal      = {CoRR},
+  volume       = {abs/2309.08347},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2309.08347},
+  doi          = {10.48550/ARXIV.2309.08347},
+  eprinttype    = {arXiv},
+  eprint       = {2309.08347},
+  timestamp    = {Fri, 22 Sep 2023 12:57:22 +0200},
+  pdf          = {https://arxiv.org/pdf/2309.08347.pdf},
+  code         = {https://github.com/Jiuzhouh/Reward-Engineering-for-Generating-SEG},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2309-08347.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  bibtex_show  = {true},
+  abstract = {Semi-structured explanation depicts the implicit process of a reasoner with an explicit representation. This explanation highlights how available information in a specific query is supplemented with information a reasoner produces from its internal weights towards generating an answer. Despite the recent improvements in generative capabilities of language models, producing structured explanations to verify model's true reasoning capabilities remains a challenge. This issue is particularly pronounced for not-so-large LMs, as the reasoner is expected to couple a sequential answer with a structured explanation which embodies both the correct presentation and the correct reasoning process. In this work, we first underscore the limitations of supervised fine-tuning (SFT) in tackling this challenge, and then introduce a carefully crafted reward engineering method in reinforcement learning (RL) to better address this problem. We investigate multiple reward aggregation methods and provide a detailed discussion which sheds light on the promising potential of RL for future research. Our proposed reward on two semi-structured explanation generation benchmarks (ExplaGraph and COPA-SSE) achieves new state-of-the-art results.}
+}
+
+@article{DBLP:journals/corr/abs-2305-12392,
+  author       = {Jiuzhou Han and
+                  Nigel Collier and
+                  Wray L. Buntine and
+                  Ehsan Shareghi},
+  title        = {PiVe: Prompting with Iterative Verification Improving Graph-based
+                  Generative Capability of LLMs},
+  journal      = {CoRR},
+  volume       = {abs/2305.12392},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2305.12392},
+  doi          = {10.48550/ARXIV.2305.12392},
+  eprinttype    = {arXiv},
+  eprint       = {2305.12392},
+  timestamp    = {Fri, 26 May 2023 11:29:33 +0200},
+  pdf          = {https://arxiv.org/pdf/2305.12392.pdf},
+  code         = {https://github.com/Jiuzhouh/PiVe},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2305-12392.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  bibtex_show  = {true},
+  abstract = {Large language models (LLMs) have shown great abilities of solving various natural language tasks in different domains. Due to the training objective of LLMs and their pretraining data, LLMs are not very well equipped for tasks involving structured data generation. We propose a framework, Prompting with Iterative Verification (PiVe), to improve graphbased generative capability of LLMs. We show how a small language model could be trained to act as a verifier module for the output of an LLM (i.e., ChatGPT), and to iteratively improve its performance via fine-grained corrective instructions. Additionally, we show how the verifier module could apply iterative corrections offline for a more cost-effective solution to the text-to-graph generation task. Experiments on three graph-based datasets show consistent improvement gained via PiVe. Additionally, we highlight how the proposed verifier module can be used as a data augmentation tool to help improve the quality of automatically generated parallel text-graph datasets.}
 }
