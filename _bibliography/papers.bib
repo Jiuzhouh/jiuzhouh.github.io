@@ -70,9 +70,9 @@
 }
 
 @article{DBLP:journals/corr/abs-2309-08347,
-  abbr         = {arXiv},
+  abbr         = {EACL},
   author       = {Jiuzhou Han and
-                  Wray L. Buntine and
+                  Wray Buntine and
                   Ehsan Shareghi},
   title        = {Reward Engineering for Generating Semi-structured Explanation},
   journal      = {CoRR},
@@ -88,13 +88,14 @@
   biburl       = {https://dblp.org/rec/journals/corr/abs-2309-08347.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   bibtex_show  = {true},
-  abstract = {Semi-structured explanation depicts the implicit process of a reasoner with an explicit representation. This explanation highlights how available information in a specific query is supplemented with information a reasoner produces from its internal weights towards generating an answer. Despite the recent improvements in generative capabilities of language models, producing structured explanations to verify model's true reasoning capabilities remains a challenge. This issue is particularly pronounced for not-so-large LMs, as the reasoner is expected to couple a sequential answer with a structured explanation which embodies both the correct presentation and the correct reasoning process. In this work, we first underscore the limitations of supervised fine-tuning (SFT) in tackling this challenge, and then introduce a carefully crafted reward engineering method in reinforcement learning (RL) to better address this problem. We investigate multiple reward aggregation methods and provide a detailed discussion which sheds light on the promising potential of RL for future research. Our proposed reward on two semi-structured explanation generation benchmarks (ExplaGraph and COPA-SSE) achieves new state-of-the-art results.}
+  abstract = {Semi-structured explanation depicts the implicit process of a reasoner with an explicit representation. This explanation highlights how available information in a specific query is utilised and supplemented with information a reasoner produces from its internal weights towards generating an answer. Despite the recent improvements in generative capabilities of language models, producing structured explanations to verify a model’s true reasoning capabilities remains a challenge. This issue is particularly pronounced for not-so-large LMs (e.g., FLAN-T5-XXL). In this work, we first underscore the limitations of supervised fine-tuning (SFT) in tackling this challenge, and then introduce a carefully crafted reward engineering method in reinforcement learning (RL) to better address this problem. We investigate multiple reward aggregation methods and provide a detailed discussion which sheds light on the promising potential of RL for future research. Our proposed method on two semi-structured explanation generation benchmarks (ExplaGraph and COPA-SSE) achieves new state-of-the-art results.}
 }
 
 @article{DBLP:journals/corr/abs-2305-12392,
+  abbr         = {arXiv},
   author       = {Jiuzhou Han and
                   Nigel Collier and
-                  Wray L. Buntine and
+                  Wray Buntine and
                   Ehsan Shareghi},
   title        = {PiVe: Prompting with Iterative Verification Improving Graph-based
                   Generative Capability of LLMs},
@@ -112,4 +113,24 @@
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   bibtex_show  = {true},
   abstract = {Large language models (LLMs) have shown great abilities of solving various natural language tasks in different domains. Due to the training objective of LLMs and their pretraining data, LLMs are not very well equipped for tasks involving structured data generation. We propose a framework, Prompting with Iterative Verification (PiVe), to improve graphbased generative capability of LLMs. We show how a small language model could be trained to act as a verifier module for the output of an LLM (i.e., ChatGPT), and to iteratively improve its performance via fine-grained corrective instructions. Additionally, we show how the verifier module could apply iterative corrections offline for a more cost-effective solution to the text-to-graph generation task. Experiments on three graph-based datasets show consistent improvement gained via PiVe. Additionally, we highlight how the proposed verifier module can be used as a data augmentation tool to help improve the quality of automatically generated parallel text-graph datasets.}
+}
+
+@article{DBLP:journals/corr/abs-2401-14016,
+  abbr         = {arXiv},
+  author       = {Jiuzhou Han and
+                  Wray Buntine and
+                  Ehsan Shareghi},
+  title        = {Towards Uncertainty-Aware Language Agent},
+  journal      = {CoRR},
+  volume       = {abs/2401.14016},
+  year         = {2024},
+  eprinttype    = {arXiv},
+  eprint       = {2401.14016},
+  timestamp    = {Fri, 26 May 2023 11:29:33 +0200},
+  pdf          = {https://arxiv.org/pdf/2401.14016.pdf},
+  code         = {https://github.com/Jiuzhouh/Uncertainty-Aware-Language-Agent},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2401-14016.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  bibtex_show  = {true},
+  abstract = {While Language Agents have achieved promising success by placing Large Language Models at the core of a more versatile design that dynamically interacts with the external world, the existing approaches neglect the notion of uncertainty during these interactions. We present the Uncertainty-Aware Language Agent (UALA), a framework that orchestrates the interaction between the agent and the external world using uncertainty quantification. Compared with other well-known counterparts like ReAct, our extensive experiments across 3 representative tasks (HotpotQA, StrategyQA, MMLU) and various LLM sizes demonstrates that UALA brings a significant improvement of performance, while having a substantially lower reliance on the external world (i.e., reduced number of tool calls and tokens). Our analyses provide various insights including the great potential of UALA compared with agent fine-tuning, and underscore the unreliability of verbalised confidence of LLMs as a proxy for uncertainty.}
 }
