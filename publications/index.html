@@ -116,6 +116,68 @@
           <article>
             <!-- _pages/publications.md -->
 <div class="publications">
+  <h2 class="year">2024</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="DBLP:journals/corr/abs-2401-14016" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Towards Uncertainty-Aware Language Agent</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Jiuzhou Han, Wray Buntine, and Ehsan Shareghi</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>CoRR</em>, 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://arxiv.org/pdf/2401.14016.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://github.com/Jiuzhouh/Uncertainty-Aware-Language-Agent" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-arxiv-id="2401.14016"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>While Language Agents have achieved promising success by placing Large Language Models at the core of a more versatile design that dynamically interacts with the external world, the existing approaches neglect the notion of uncertainty during these interactions. We present the Uncertainty-Aware Language Agent (UALA), a framework that orchestrates the interaction between the agent and the external world using uncertainty quantification. Compared with other well-known counterparts like ReAct, our extensive experiments across 3 representative tasks (HotpotQA, StrategyQA, MMLU) and various LLM sizes demonstrates that UALA brings a significant improvement of performance, while having a substantially lower reliance on the external world (i.e., reduced number of tool calls and tokens). Our analyses provide various insights including the great potential of UALA compared with agent fine-tuning, and underscore the unreliability of verbalised confidence of LLMs as a proxy for uncertainty.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">DBLP:journals/corr/abs-2401-14016</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Han, Jiuzhou and Buntine, Wray and Shareghi, Ehsan}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Towards Uncertainty-Aware Language Agent}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{CoRR}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{abs/2401.14016}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">eprinttype</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2401.14016}</span><span class="p">,</span>
+  <span class="na">timestamp</span> <span class="p">=</span> <span class="s">{Fri, 26 May 2023 11:29:33 +0200}</span><span class="p">,</span>
+  <span class="na">biburl</span> <span class="p">=</span> <span class="s">{https://dblp.org/rec/journals/corr/abs-2401-14016.bib}</span><span class="p">,</span>
+  <span class="na">bibsource</span> <span class="p">=</span> <span class="s">{dblp computer science bibliography, https://dblp.org}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
   <h2 class="year">2023</h2>
   <ol class="bibliography">
 <li>
@@ -194,7 +256,7 @@
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
+        <div class="col-sm-2 abbr"><abbr class="badge">EACL</abbr></div>
 
         <!-- Entry bib key -->
         <div id="DBLP:journals/corr/abs-2309-08347" class="col-sm-8">
@@ -204,7 +266,7 @@
         <div class="author">
         
 
-        Jiuzhou Han, Wray L. Buntine, and Ehsan Shareghi</div>
+        Jiuzhou Han, Wray Buntine, and Ehsan Shareghi</div>
 
         <!-- Journal/Book title and date -->
         
@@ -231,12 +293,12 @@
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>Semi-structured explanation depicts the implicit process of a reasoner with an explicit representation. This explanation highlights how available information in a specific query is supplemented with information a reasoner produces from its internal weights towards generating an answer. Despite the recent improvements in generative capabilities of language models, producing structured explanations to verify model’s true reasoning capabilities remains a challenge. This issue is particularly pronounced for not-so-large LMs, as the reasoner is expected to couple a sequential answer with a structured explanation which embodies both the correct presentation and the correct reasoning process. In this work, we first underscore the limitations of supervised fine-tuning (SFT) in tackling this challenge, and then introduce a carefully crafted reward engineering method in reinforcement learning (RL) to better address this problem. We investigate multiple reward aggregation methods and provide a detailed discussion which sheds light on the promising potential of RL for future research. Our proposed reward on two semi-structured explanation generation benchmarks (ExplaGraph and COPA-SSE) achieves new state-of-the-art results.</p>
+            <p>Semi-structured explanation depicts the implicit process of a reasoner with an explicit representation. This explanation highlights how available information in a specific query is utilised and supplemented with information a reasoner produces from its internal weights towards generating an answer. Despite the recent improvements in generative capabilities of language models, producing structured explanations to verify a model’s true reasoning capabilities remains a challenge. This issue is particularly pronounced for not-so-large LMs (e.g., FLAN-T5-XXL). In this work, we first underscore the limitations of supervised fine-tuning (SFT) in tackling this challenge, and then introduce a carefully crafted reward engineering method in reinforcement learning (RL) to better address this problem. We investigate multiple reward aggregation methods and provide a detailed discussion which sheds light on the promising potential of RL for future research. Our proposed method on two semi-structured explanation generation benchmarks (ExplaGraph and COPA-SSE) achieves new state-of-the-art results.</p>
           </div>
 <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">DBLP:journals/corr/abs-2309-08347</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Han, Jiuzhou and Buntine, Wray L. and Shareghi, Ehsan}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Han, Jiuzhou and Buntine, Wray and Shareghi, Ehsan}</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Reward Engineering for Generating Semi-structured Explanation}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{CoRR}</span><span class="p">,</span>
   <span class="na">volume</span> <span class="p">=</span> <span class="s">{abs/2309.08347}</span><span class="p">,</span>
@@ -256,7 +318,7 @@
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"></div>
+        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
 
         <!-- Entry bib key -->
         <div id="DBLP:journals/corr/abs-2305-12392" class="col-sm-8">
@@ -267,7 +329,7 @@
         <div class="author">
         
 
-        Jiuzhou Han, Nigel Collier, Wray L. Buntine, and
+        Jiuzhou Han, Nigel Collier, Wray Buntine, and
           <span class="more-authors" title="click to view 1 more author" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -312,7 +374,7 @@
 <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">DBLP:journals/corr/abs-2305-12392</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Han, Jiuzhou and Collier, Nigel and Buntine, Wray L. and Shareghi, Ehsan}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Han, Jiuzhou and Collier, Nigel and Buntine, Wray and Shareghi, Ehsan}</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{PiVe: Prompting with Iterative Verification Improving Graph-based
                     Generative Capability of LLMs}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{CoRR}</span><span class="p">,</span>
@@ -471,7 +533,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Jiuzhou  Han. 
+        © Copyright 2024 Jiuzhou  Han. 
       </div>
     </footer>
 
