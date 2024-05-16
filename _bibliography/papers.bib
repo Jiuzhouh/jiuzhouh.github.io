@@ -69,30 +69,30 @@
     abstract = {Embodied language comprehension emphasizes that language understanding is not solely a matter of mental processing in the brain but also involves interactions with the physical and social environment. With the explosive growth of Large Language Models (LLMs) and their already ubiquitous presence in our daily lives, it is becoming increasingly necessary to verify their real-world understanding. Inspired by cognitive theories, we propose POSQA: a Physical Object Size Question Answering dataset with simple size comparison questions to examine the extremity and analyze the potential mechanisms of the embodied comprehension of the latest LLMs. We show that even the largest LLMs today perform poorly under the zero-shot setting. We then push their limits with advanced prompting techniques and external knowledge augmentation. Furthermore, we investigate whether their real-world comprehension primarily derives from contextual information or internal weights and analyse the impact of prompt formats and report bias of different objects. Our results show that real-world understanding that LLMs shaped from textual data can be vulnerable to deception and confusion by the surface form of prompts, which makes it less aligned with human behaviours.},
 }
 
-@article{DBLP:journals/corr/abs-2309-08347,
+@inproceedings{DBLP:conf/eacl/HanBS24,
   abbr         = {EACL},
   author       = {Jiuzhou Han and
-                  Wray Buntine and
+                  Wray L. Buntine and
                   Ehsan Shareghi},
+  editor       = {Yvette Graham and
+                  Matthew Purver},
   title        = {Reward Engineering for Generating Semi-structured Explanation},
-  journal      = {CoRR},
-  volume       = {abs/2309.08347},
-  year         = {2023},
-  url          = {https://doi.org/10.48550/arXiv.2309.08347},
-  doi          = {10.48550/ARXIV.2309.08347},
-  eprinttype    = {arXiv},
-  eprint       = {2309.08347},
-  timestamp    = {Fri, 22 Sep 2023 12:57:22 +0200},
-  pdf          = {https://arxiv.org/pdf/2309.08347.pdf},
+  booktitle    = {Findings of the Association for Computational Linguistics: {EACL}
+                  2024, St. Julian's, Malta, March 17-22, 2024},
+  pages        = {589--602},
+  publisher    = {Association for Computational Linguistics},
+  year         = {2024},
+  pdf          = {https://aclanthology.org/2024.findings-eacl.41.pdf},
   code         = {https://github.com/Jiuzhouh/Reward-Engineering-for-Generating-SEG},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2309-08347.bib},
+  timestamp    = {Tue, 02 Apr 2024 16:32:10 +0200},
+  biburl       = {https://dblp.org/rec/conf/eacl/HanBS24.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   bibtex_show  = {true},
   abstract = {Semi-structured explanation depicts the implicit process of a reasoner with an explicit representation. This explanation highlights how available information in a specific query is utilised and supplemented with information a reasoner produces from its internal weights towards generating an answer. Despite the recent improvements in generative capabilities of language models, producing structured explanations to verify a model’s true reasoning capabilities remains a challenge. This issue is particularly pronounced for not-so-large LMs (e.g., FLAN-T5-XXL). In this work, we first underscore the limitations of supervised fine-tuning (SFT) in tackling this challenge, and then introduce a carefully crafted reward engineering method in reinforcement learning (RL) to better address this problem. We investigate multiple reward aggregation methods and provide a detailed discussion which sheds light on the promising potential of RL for future research. Our proposed method on two semi-structured explanation generation benchmarks (ExplaGraph and COPA-SSE) achieves new state-of-the-art results.}
 }
 
 @article{DBLP:journals/corr/abs-2305-12392,
-  abbr         = {arXiv},
+  abbr         = {ACL},
   author       = {Jiuzhou Han and
                   Nigel Collier and
                   Wray Buntine and
@@ -101,7 +101,7 @@
                   Generative Capability of LLMs},
   journal      = {CoRR},
   volume       = {abs/2305.12392},
-  year         = {2023},
+  year         = {2024},
   url          = {https://doi.org/10.48550/arXiv.2305.12392},
   doi          = {10.48550/ARXIV.2305.12392},
   eprinttype    = {arXiv},
@@ -116,7 +116,7 @@
 }
 
 @article{DBLP:journals/corr/abs-2401-14016,
-  abbr         = {arXiv},
+  abbr         = {ACL},
   author       = {Jiuzhou Han and
                   Wray Buntine and
                   Ehsan Shareghi},
