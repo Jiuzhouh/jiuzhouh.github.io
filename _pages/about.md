@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a 2nd-year PhD student in NLP at the [Department of Data Science & AI, Monash University](https://research.monash.edu/en/organisations/department-of-data-science-ai) (2023 - now), supervised by [Dr. Ehsan Shareghi](https://eehsan.github.io) and [Prof. Wray Buntine](https://bayesian-models.org).
+I am a 3rd-year PhD student in NLP at the [Department of Data Science & AI, Monash University](https://research.monash.edu/en/organisations/department-of-data-science-ai) (2023 - now), supervised by [Dr. Ehsan Shareghi](https://eehsan.github.io) and [Prof. Wray Buntine](https://bayesian-models.org).
 
 My research focuses on enhancing the generative capabilities of Large Language Models and developing sophisticated Language Agents for complex reasoning tasks.
 
