@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a 3rd-year PhD student in NLP at the [Department of Data Science & AI, Monash University](https://research.monash.edu/en/organisations/department-of-data-science-ai) (2023 - now), supervised by [Dr. Ehsan Shareghi](https://eehsan.github.io) and [Prof. Wray Buntine](https://bayesian-models.org).
 
-My research focuses on reliable agentic AI and large language models. Built autonomous agents that operate in complex environments and improve reasoning reliability via uncertainty-aware control and tool-based verification.
+My research focuses on reliable agentic AI and large language models. Develop autonomous agents that operate in complex environments and improve reasoning reliability via external verification and tool engagement.
 
 Prior to this, I obtained my Master of Science (Computer Science) degree at [University of Melbourne](https://www.unimelb.edu.au) (2019 - 2021), supervised by [Prof. Trevor Cohn](https://people.eng.unimelb.edu.au/tcohn/) and [Dr. Daniel Beck](https://beckdaniel.wordpress.com).
 
