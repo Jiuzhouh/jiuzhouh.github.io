@@ -190,18 +190,27 @@
     abstract = "Large language models demonstrate remarkable reasoning capabilities but often produce unreliable or incorrect responses. Existing verification methods are typically model-specific or domain-restricted, requiring significant computational resources and lacking scalability across diverse reasoning tasks. To address these limitations, we propose VerifiAgent, a unified verification agent that integrates two levels of verification: meta-verification, which assesses completeness and consistency in model responses, and tool-based adaptive verification, where VerifiAgent autonomously selects appropriate verification tools based on the reasoning type, including mathematical, logical, or commonsense reasoning. This adaptive approach ensures both efficiency and robustness across different verification scenarios. Experimental results show that VerifiAgent outperforms baseline verification methods (e.g., deductive verifier, backward verifier) among all reasoning tasks. Additionally, it can further enhance reasoning accuracy by leveraging feedback from verification results. VerifiAgent can also be effectively applied to inference scaling, achieving better results with fewer generated samples and costs compared to existing process reward models in the mathematical reasoning domain."
 }
 
-@misc{han2025uncertaintybasedmethods,
+@inproceedings{HanBS26,
       abbr         = {AAAI},
       title={Uncertainty-Based Methods for Automated Process Reward Data Construction and Output Aggregation in Mathematical Reasoning},
-      author={Jiuzhou Han and Wray Buntine and Ehsan Shareghi},
-      year={2025},
-      month = Aug,
-      eprint={2508.01773},
-      archivePrefix={arXiv},
+      author       = {Jiuzhou Han and
+                      Wray L. Buntine and
+                      Ehsan Shareghi},
+      editor       = {Sven Koenig and
+                      Chad Jenkins and
+                      Matthew E. Taylor},
+      booktitle    = {Fortieth {AAAI} Conference on Artificial Intelligence, Thirty-Eighth
+                      Conference on Innovative Applications of Artificial Intelligence,
+                      Sixteenth Symposium on Educational Advances in Artificial Intelligence,
+                      {AAAI} 2026, Singapore, January 20-27, 2026},
+      pages        = {30925--30933},
+      publisher    = {{AAAI} Press},
+      year         = {2026},
+      url          = {https://doi.org/10.1609/aaai.v40i37.40351},
+      doi          = {10.1609/AAAI.V40I37.40351},
+      timestamp    = {Mon, 23 Mar 2026 16:31:07 +0100},
       pdf          = {https://arxiv.org/pdf/2508.01773},
       code         = {https://github.com/Jiuzhouh/UnPRM},
-      primaryClass={cs.AI},
       bibtex_show  = {true},
-      url={https://arxiv.org/abs/2508.01773},
       abstract     = "Large language models have demonstrated remarkable capabilities in complex mathematical reasoning tasks, but they inevitably generate errors throughout multi-step solutions. Process-level Reward Models (PRMs) have shown great promise by providing supervision and evaluation at each intermediate step, thereby effectively improving the models' reasoning abilities. However, training effective PRMs requires high-quality process reward data, yet existing methods for constructing such data are often labour-intensive or inefficient. In this paper, we propose an uncertainty-driven framework for automated process reward data construction, encompassing both data generation and annotation processes for PRMs. Additionally, we identify the limitations of both majority vote and PRMs, and introduce two generic uncertainty-aware output aggregation methods: Hybrid Majority Reward Vote and Weighted Reward Frequency Vote, which combine the strengths of majority vote with PRMs. Extensive experiments on ProcessBench, MATH, and GSMPlus show the effectiveness and efficiency of the proposed PRM data construction framework, and demonstrate that the two output aggregation methods further improve the mathematical reasoning abilities across diverse PRMs. "
 }
