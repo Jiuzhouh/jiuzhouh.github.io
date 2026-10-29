@@ -198,3 +198,27 @@
       bibtex_show  = {true},
       abstract     = "Large language models have demonstrated remarkable capabilities in complex mathematical reasoning tasks, but they inevitably generate errors throughout multi-step solutions. Process-level Reward Models (PRMs) have shown great promise by providing supervision and evaluation at each intermediate step, thereby effectively improving the models' reasoning abilities. However, training effective PRMs requires high-quality process reward data, yet existing methods for constructing such data are often labour-intensive or inefficient. In this paper, we propose an uncertainty-driven framework for automated process reward data construction, encompassing both data generation and annotation processes for PRMs. Additionally, we identify the limitations of both majority vote and PRMs, and introduce two generic uncertainty-aware output aggregation methods: Hybrid Majority Reward Vote and Weighted Reward Frequency Vote, which combine the strengths of majority vote with PRMs. Extensive experiments on ProcessBench, MATH, and GSMPlus show the effectiveness and efficiency of the proposed PRM data construction framework, and demonstrate that the two output aggregation methods further improve the mathematical reasoning abilities across diverse PRMs. "
 }
+
+@inproceedings{han-etal-2026-deepsea,
+    title = "{D}eep{SEA}: A Multilingual Evaluation Benchmark for {S}outheast {A}sia",
+    author = "Han, Jiuzhou  and
+      Mishra, Abhishek Bijay  and
+      Cohn, Trevor  and
+      Mittal, Shubham",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    pdf = {https://aclanthology.org/2026.emnlp-main.1.pdf},
+    code = {https://github.com/google-research/deep-sea},
+    url = "https://aclanthology.org/2026.emnlp-main.1/",
+    pages = "1--17",
+    ISBN = "979-8-89176-459-0",
+    bibtex_show  = {true},
+    abstract = "While language models have demonstrated remarkable capabilities, their performance remains disproportionately skewed towards high-resource languages. This disparity is particularly acute for the 700 million inhabitants of Southeast Asia, where vast linguistic diversity remains under-represented in existing benchmarks, often suffering from limited language coverage or narrow task scopes. To address this, we introduce DeepSEA, a comprehensive benchmark constructed from established datasets through professional human translation into 12 Southeast Asian languages, spanning both high-resource (e.g., Indonesian, Thai, Vietnamese) and low-resource (e.g., Burmese, Khmer, Lao) languages across five distinct tasks: mathematical reasoning, scientific reasoning, question answering, abstractive summarisation, and machine translation. Extensive evaluation of frontier proprietary and openweights models reveals that while frontier models like Gemini-3.7-Flash maintain robustness across resource tiers, smaller models face severe performance degradation on low-resource languages. Crucially, models perform better in reasoning and summarisation when pivoted through English rather than target languages, exposing a critical dependency on English representations, especially for low-resource languages. Beyond these observations, we provide a cross-lingual error analysis and a cross-script tokeniser fertility analysis. We hope these findings shed light on the development of next generation inclusive multilingual models."
+}
